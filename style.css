@@ -1,0 +1,60 @@
+/* body{
+    background-image: url(north\ pole.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+}
+h1{
+    background: linear-gradient(to bottom, rgba(58, 180, 137, 0.7) 0%, rgba(29, 253, 249, 0.7) 50%, rgba(69, 126, 252, 0.7) 100%);
+    background-clip: text;
+    color:transparent;
+    
+}
+p{
+    color: whitesmoke;
+} */
+
+.container{
+    /* display:flex;
+    flex-wrap:wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+#box1,#box2,#box3,#box4,#box5,#box6{
+    border: 5px solid;
+    border-color: black;
+    /* width: calc(33.333% - 20px);
+    height: 250px; */
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1%;
+    box-sizing: border-box;
+    min-width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: rgb(55, 215, 251);
+}
+    
+#box2{
+    background-color:palevioletred;
+}
+#box3{
+    background-color: aquamarine;
+}
+#box4{
+    background-color:cornflowerblue;
+}
+    
+#box5{
+    background-color:pink;
+}
+#box6{
+    background-color: yellowgreen;
+}
+
